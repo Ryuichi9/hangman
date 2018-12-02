@@ -35,6 +35,6 @@ def hangman(word):
             break
     if not win:
         print("\n".join(stages[0:wrong+1]))
-        print("あなたの負け！正解は{}.".format(word))
+        print("あなたの負け！正解は[{}].".format(word))
 
 hangman("cat")
